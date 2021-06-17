@@ -3,7 +3,7 @@ This repository contains various sample C++ projects designed for the Arduino Un
 <br />
 <br />
 
-## 01.[Cybernetic Webhook](https://github.com/torynfarr/arduino/tree/master/01.cybernetic-webhook)
+## 01.[Cybernetic Webhook](https://github.com/torynfarr/arduino/tree/main/01.cybernetic-webhook)
 
 This sample uses the Adafruid PN532 breakout board configured to communicate iva Serial Peripheral Interface (SPI). The PN532 is connected to an Arduino Uno WiFi Rev2. When the sketch runs, the Arduino will attempt to connect to the WiFi network using the SSID and WPA PSK defined in the *secrets* header file. Once connected, it verifies that the PN532 board is present and then prompts you to scan your cybernetic implant (or any NFC tag, if you're not chipped).
 
@@ -18,7 +18,7 @@ If the UID of the scanned tag matches the UID defined in the *secrets* header fi
 - The UID read from the NFC tag should be either 4 bytes (likely Mifare Classic) or 7 bytes (likely Mifare Ultralight)
 
 <br />
-<img src="https://github.com/torynfarr/arduino/blob/master/docs/images/cybernetic-webhook.gif" width="350">
+<img src="https://github.com/torynfarr/arduino/blob/main/docs/images/cybernetic-webhook.gif" width="350">
 <br />
 
 ## Additional Information
